@@ -1,0 +1,11 @@
+/* styles.css */
+/* Styles for contact page */
+
+.contact {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact form {
+    margin-top: 20px;
+}

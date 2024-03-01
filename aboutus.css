@@ -1,0 +1,63 @@
+/* styles.css */
+/* Styles for about page */
+
+.about {
+    padding: 20px;
+    text-align: center;
+}
+/* Inside styles.css */
+.about-content {
+    background-image: url('aboutus\ image.jpg');
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    padding: 50px; /* Add padding for content */
+    color: #ffffff; /* Set text color to green for better contrast */
+    .timeline {
+        display: flex;
+        flex-direction: column;
+    }
+    .team {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .team-member {
+        flex: 1;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .team {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    flex: 1;
+    text-align: center;
+    margin: 20px;
+}
+
+    
+    .timeline-item {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    
+    .timeline-date {
+        font-weight: bold;
+        margin-right: 20px;
+    }
+    
+    .timeline-content {
+        flex: 1;
+    }
+    .brand-video {
+        text-align: center;
+    }
+    .accordion-content {
+        transition: max-height 0.3s ease-out;
+    }
+        
+}
+

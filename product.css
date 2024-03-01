@@ -1,0 +1,12 @@
+/* styles.css */
+/* Styles for product page */
+
+.product {
+    padding: 20px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
